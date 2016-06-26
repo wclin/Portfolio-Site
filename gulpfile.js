@@ -5,11 +5,11 @@ var browserSync = require('browser-sync').create();
 gulp.task('browse', function() {
 
     browserSync.init({
-        server: "./"
+        server: "./framework"
     });
 
-    gulp.watch("css/*.css").on('change', browserSync.reload);
-    gulp.watch("*.html").on('change', browserSync.reload);
+    gulp.watch("framework/css/*.css").on('change', browserSync.reload);
+    gulp.watch("framework/*.html").on('change', browserSync.reload);
 });
 
 gulp.task('default', ['browse']);
