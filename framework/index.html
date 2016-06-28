@@ -27,7 +27,13 @@
         <div class="row">
             <div class="col-md-12">
                 <picture>
-                    <img srcset="http://placekitten.com/g/1200/400 2x" media="(min-device-width: 480px)" class="img-responsive" alt="main kitten">
+                    <source media="(max-width: 700px)" srcset="
+                    http://placekitten.com/g/900/300 138w">
+                    <source media="(max-width: 1400px)" srcset=" http://placekitten.com/g/1200/400 416w">
+                    <img
+                    src="http://placekitten.com/g/1200/400"
+                    class="img-responsive img-center"
+                    alt="main kitten">
                 </picture>
             </div>
         </div>
@@ -43,12 +49,12 @@
                 <p><a href="https://github.com/udacity/Appify/">https://github.com/udacity/Appify/</a></p>
             </div>
             <div class="col-md-4">
-                <img src="https://placekitten.com/g/300/300" class="img-responsive img-center">
+                <img src="https://placekitten.com/g/299/300" class="img-responsive img-center">
                 <h3 class=" text-uppercase">Sunflower</h3>
                 <p><a href="http://github.com/udacity/Sunflower/">https://github.com/udacity/Sunflower/</a></p>
             </div>
             <div class="col-md-4">
-                <img src="https://placekitten.com/g/300/300" class="img-responsive img-center">
+                <img src="https://placekitten.com/g/300/301" class="img-responsive img-center">
                 <h3 class=" text-uppercase">Bokeh</h3>
                 <p><a href="http://github.com/udacity/Bokeh/">https://github.com/udacity/Bokeh/</a></p>
             </div>
