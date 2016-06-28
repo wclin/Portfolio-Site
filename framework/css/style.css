@@ -4,7 +4,7 @@ body {
     color: #2d3c49;
     font-weight: 300 !important;
     margin: 5% !important;
-    background: url(http://placekitten.com/g/150/150)
+    background: url(http://placekitten.com/g/2000/2000)
 }
 
 .title-logo {
@@ -14,7 +14,6 @@ body {
 
 .title-super {
     margin-bottom: -2px;
-    color: #FFFFFF;
 }
 
 .text-thin {
