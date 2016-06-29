@@ -20,6 +20,10 @@ body {
     font-weight: 100;
 }
 
+.text-bold {
+    font-weight: bold;
+}
+
 .text-mute {
     color: #7d97ad;
 }
